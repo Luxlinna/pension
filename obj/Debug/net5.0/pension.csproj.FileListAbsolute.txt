@@ -1,0 +1,15 @@
+/Users/luxlinna/Hermods/pension/bin/Debug/net5.0/pension.deps.json
+/Users/luxlinna/Hermods/pension/bin/Debug/net5.0/pension.runtimeconfig.json
+/Users/luxlinna/Hermods/pension/bin/Debug/net5.0/pension.runtimeconfig.dev.json
+/Users/luxlinna/Hermods/pension/bin/Debug/net5.0/pension.dll
+/Users/luxlinna/Hermods/pension/bin/Debug/net5.0/ref/pension.dll
+/Users/luxlinna/Hermods/pension/bin/Debug/net5.0/pension.pdb
+/Users/luxlinna/Hermods/pension/obj/Debug/net5.0/pension.csprojAssemblyReference.cache
+/Users/luxlinna/Hermods/pension/obj/Debug/net5.0/pension.GeneratedMSBuildEditorConfig.editorconfig
+/Users/luxlinna/Hermods/pension/obj/Debug/net5.0/pension.AssemblyInfoInputs.cache
+/Users/luxlinna/Hermods/pension/obj/Debug/net5.0/pension.AssemblyInfo.cs
+/Users/luxlinna/Hermods/pension/obj/Debug/net5.0/pension.csproj.CoreCompileInputs.cache
+/Users/luxlinna/Hermods/pension/obj/Debug/net5.0/pension.dll
+/Users/luxlinna/Hermods/pension/obj/Debug/net5.0/ref/pension.dll
+/Users/luxlinna/Hermods/pension/obj/Debug/net5.0/pension.pdb
+/Users/luxlinna/Hermods/pension/obj/Debug/net5.0/pension.genruntimeconfig.cache
