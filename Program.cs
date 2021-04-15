@@ -15,11 +15,11 @@ namespace Pension
             string förnamn = Console.ReadLine();
             if (förnamn != "")
             {
-                Console.Write("Skriv in ditt efternamn: ");
+                Console.Write("\nSkriv in ditt efternamn: ");
                 string efternamn = Console.ReadLine();
                 if (efternamn != "")
                 {
-                    Console.Write("Skriv in ditt ålder: ");
+                    Console.Write("\nSkriv in ditt ålder: ");
                     int ålder = Convert.ToInt32(Console.ReadLine());
                     if (ålder > 0)
                     {
@@ -27,33 +27,33 @@ namespace Pension
 
                         if (pensionen > 0)
                         {
-                            Console.WriteLine("Hej " + förnamn.ToUpper() + " " + efternamn.ToUpper() + "! " + "Det är nu " + pensionen + " år kvar till du går i pension." );
+                            Console.WriteLine("\nHej " + förnamn.ToUpper() + " " + efternamn.ToUpper() + "! " + "Det är nu " + pensionen + " år kvar till du går i pension." );
                         } 
                         else if (pensionen == 0)
                         {
-                            Console.WriteLine("Hej " + förnamn.ToUpper() + " " + efternamn.ToUpper() + "! " + "Du blir pensionär i år." );
+                            Console.WriteLine("\nHej " + förnamn.ToUpper() + " " + efternamn.ToUpper() + "! " + "Du blir pensionär i år." );
                         } 
                         else
                         {
-                            Console.WriteLine("Hej " + förnamn.ToUpper() + " " + efternamn.ToUpper() + "! " + "Du är redan pensionär för " + Math.Abs(pensionen) + " år!!!" );
+                            Console.WriteLine("\nHej " + förnamn.ToUpper() + " " + efternamn.ToUpper() + "! " + "Du är redan pensionär för " + Math.Abs(pensionen) + " år!!!" );
                         }
 
                         Console.ReadKey();
                     } 
                     else
                     {
-                        Console.WriteLine("Det är inte din ålder !!!");
+                        Console.WriteLine("\nDet är inte din ålder !!!");
                         Console.ReadKey();
                     }
                 } 
                 else
                 {
-                    Console.Write("Du glömmer att skriva ditt Efternamn!!!");
+                    Console.Write("\nDu glömmer att skriva ditt Efternamn!!!");
                     Console.ReadKey();
                 }
             } else
             {
-                Console.Write("Du glömmer att skriva ditt Förnamn!!!");
+                Console.Write("\nDu glömmer att skriva ditt Förnamn!!!");
                 Console.ReadKey();
             }       
         }
