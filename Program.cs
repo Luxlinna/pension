@@ -35,7 +35,7 @@ namespace Pension
                         } 
                         else
                         {
-                            Console.WriteLine("Hej " + förnamn.ToUpper() + " " + efternamn.ToUpper() + "! " + "Du är redan pensionär." );
+                            Console.WriteLine("Hej " + förnamn.ToUpper() + " " + efternamn.ToUpper() + "! " + "Du är redan pensionär för " + Math.Abs(pensionen) + " år!!!" );
                         }
 
                         Console.ReadKey();
