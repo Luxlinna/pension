@@ -21,7 +21,7 @@ namespace Pension
                 {
                     Console.Write("\nSkriv in ditt ålder: ");
                     int ålder = Convert.ToInt32(Console.ReadLine());
-                    if (ålder >= 0)
+                    if (ålder > 0)
                     {
                         pensionen = (pensionÅlder - ålder);
 
