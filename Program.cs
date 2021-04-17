@@ -9,7 +9,7 @@ namespace Pension
             int pensionÅlder = 65;
             int pensionen;
 
-            Console.BackgroundColor = ConsoleColor.Blue;
+            Console.ForegroundColor = ConsoleColor.Blue;
             
             Console.Write("Skriv in ditt förnamn: ");
             string förnamn = Console.ReadLine();
